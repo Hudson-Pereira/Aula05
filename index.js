@@ -19,6 +19,7 @@ console.log(soma(87,3));
 console.log(soma(7,3));
 console.log(soma(8,54));
 
+
 function div(g,h){
   return g/h;
 };
