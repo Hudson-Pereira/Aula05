@@ -1,13 +1,10 @@
-//letras maiusculas
-let nameMaior = 'hudson maior';
+//receber do usuario um numero e responder se eh par ou impar.
+let n = +prompt('Digite um número');
 
-console.log(nameMaior.toUpperCase());
-//letras minusculas
-let nameMenor = 'HUDSON MENOR';
-
-console.log(nameMenor.toLowerCase());
-//primeira maiuscula
-let nome = 'hudson';
-
-console.log(nome[0].toUpperCase()+nome.substr(1));
-
+if (n % 2 === 0) {
+  console.log('O número é par.');
+  } else if(n % 2 === 1) { 
+    console.log('O número é impar.');
+  } else {
+    console.log('Digite um numero válido.');
+  };
