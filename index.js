@@ -1,5 +1,5 @@
 //receber do usuario um numero e responder se eh par ou impar.
-let n = +prompt('Digite um número');
+let n = parseInt(prompt('Digite um número'));
 
 if (n % 2 === 0) {
   console.log('O número é par.');
